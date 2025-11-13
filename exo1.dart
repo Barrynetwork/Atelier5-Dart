@@ -1,9 +1,9 @@
 void main() {
   try {
-    int div = 12 ~/ 0; // ⚠️ division entière → provoque une exception
+    int div = 12 ~/ 0;
     print(div);
   } catch (e) {
-    print("Division impossible"); // ✅ message affiché si erreur
+    print("Division impossible"); 
   } finally {
     print("Fin du programme");
   }
