@@ -12,5 +12,7 @@ void main() {
     print(
       "Format invalide : veuillez entrer un nombre le format n'est pas valide!",
     );
+  } finally {
+    print("Fin d'opération");
   }
 }
